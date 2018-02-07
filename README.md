@@ -1,2 +1,2 @@
 # hello-world
-Develop an application that works like framework for running other applications, using the same code.
+Develop an application that works like a framework for creating and running new applications, using the same code.
