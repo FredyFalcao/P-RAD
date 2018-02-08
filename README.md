@@ -1,5 +1,9 @@
 ### P-VRAD ###
 OVERVIEW:
+
 The daily practice of programming activity shows that an application menu, the maintenance (CRUD) of its tables, and the production of reports (among other functionalities) present structures and procedures used and executed in a very similar way in all of them. Thus, one can imagine that they produce their results as if they were generic programs that adapt according to the arguments that are available in each situation. This results in more or less common dynamic menus, browsers that allow you to navigate over any of the database tables, report generators and generators for dynamic web pages. We will initially limit our focus to desktop application concepts.
+
 Using primarily the Python-3.6 language and initially the sqlite3 DBMS, the product being built is intended to be a project manager to build and run new applications fairly quickly. It follows that the idea is to try to characterize it by means of a significant name, for example: Python - Very Rapid Application Development, from which one can draw and maintain an acronym for future references to the project. How about P-VRAD?
+
 The development of P-VRAD, considering the first paragraph of this document, creates a framework that allows you to manage and use some control tables, other tables (metadata), and the database tables of the new applications that will allow you to create. An important detail in the design of P-VRAD is that, since it is an application, it will manage itself, that is, the whole structure that supports it. Another interesting feature is that the scripts used to run P-VRAD are the same ones used to run the applications it created! As a result, we have the following: all enhancements incorporated into P-VRAD will be reflected as enhancements to the applications it creates.
+
